@@ -13,7 +13,7 @@ const Job = ({ job }) => {
                         <Card.Title>
                             {job.title} - <span className="text-muted">{job.company}</span>
                         </Card.Title>
-                        <Card.Subtitle className="text-muted mb-2">
+                        <Card.Subtitle className="text-muted mb-3">
                             {new Date(job.created_at).toLocaleDateString()}
                         </Card.Subtitle>
                         <Badge variant="secondary" className="mr-2">{job.type}</Badge>
